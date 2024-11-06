@@ -1,0 +1,22 @@
+<div class="login-page" [@routerTransition]>
+  <div class="row justify-content-md-center">
+
+    <div class="login col-md-4">
+      <form class="login-container">
+        <img src="assets/warning-28-64.png" alt="error" width="80px"/><br /><br />
+        <h2 class="h2-size-shrink">Error 401 : Unauthorized </h2>
+        <br />
+
+        <h6>your authorization Failed.<br />
+          please try refreshing the page and fill in the correct credentials. </h6><br /><br />
+
+        <p class="spacing">
+          <input type="button" value="Sign in" class="btn rounded-btn btn-space">
+          <input type="button" value="Register" class="btn rounded-btn" [routerLink]="['/signup']">
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+

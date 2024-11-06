@@ -1,0 +1,12 @@
+.sidebar {
+  width: 200px; // Adjust as needed
+  float: left;
+
+  .grid-stack-item {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: move;
+  }
+}

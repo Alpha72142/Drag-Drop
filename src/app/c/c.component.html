@@ -1,0 +1,11 @@
+<div class="sidebar">
+  <div class="grid-stack-item" draggable="true" (dragstart)="onDragStart($event, 'Item 1')">
+    Sidebar Item 1
+  </div>
+  <div class="grid-stack-item" draggable="true" (dragstart)="onDragStart($event, 'Item 2')">
+    Sidebar Item 2
+  </div>
+</div>
+
+<!-- Iframe where the grid dropzone will reside -->
+<iframe #iframeRef style="width: 100%; height: 600px; border: none;"></iframe>

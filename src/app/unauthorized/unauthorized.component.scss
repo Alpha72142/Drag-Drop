@@ -1,0 +1,46 @@
+:host {
+    display: block;
+}
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    text-align: center;
+    color: #fff;
+    padding: 3em;
+    margin-top: 5em;
+    .col-lg-4 {
+        padding: 0;
+    }
+    .btn-space {
+        margin-right: 15px;
+    }
+    .rounded-btn {
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        color: rgba(255, 255, 255, 0.8);
+        border: 2px solid rgba(255, 255, 255, 0.8);
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0 25px;
+    }
+}
+.h2-size-shrink {
+    font-family:  "Ubuntu", Roboto, sans-serif !important;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-family: "Ubuntu", Roboto, sans-serif !important;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.pi{
+    border-color: #fff;
+    background-color: aqua;
+}
+

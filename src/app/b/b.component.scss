@@ -1,0 +1,42 @@
+/* Styling for the dropzone (GridStack container) */
+.dropzone {
+  border: 2px dashed #007bff;
+  background-color: #f8f9fa;
+  min-height: 300px;
+  padding: 10px;
+}
+.grid-stack-item-content {
+  padding: 5px; /* Optional internal padding for item content */
+}
+/* Styling for items within the GridStack grid */
+.grid-stack-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffc107; /* Default item background */
+  color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  cursor: grab;
+  transition: background-color 0.3s ease;
+  width: 100px;
+}
+
+.grid-stack-item:hover {
+  background-color: #ff9800; /* Highlighted on hover */
+}
+
+/* Example color variations for items */
+.grid-stack-item:nth-child(1) { background-color: #17a2b8; }
+.grid-stack-item:nth-child(2) { background-color: #28a745; }
+.grid-stack-item:nth-child(3) { background-color: #dc3545; }
+.grid-stack-item:nth-child(4) { background-color: #6f42c1; }
+.grid-stack-item:nth-child(5) { background-color: #fd7e14; }
+
+/* Optional - styling sidebar items specifically */
+.sidebar .grid-stack-item {
+  margin-bottom: 10px;
+}

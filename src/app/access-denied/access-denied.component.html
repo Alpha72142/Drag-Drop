@@ -1,0 +1,21 @@
+<div class="login-page" [@routerTransition]>
+  <div class="row justify-content-md-center">
+
+    <div class="login col-md-4">
+      <form class="login-container">
+        <img src="assets/warning-28-64.png" alt="error" width="80px"/><br /><br />
+        <h2 class="h2-size-shrink">Error 401 : Access Denied </h2>
+        <br /><br />
+
+        <h6>It appears that you don't have permission to access this page.<br />
+          Please make sure you're authorized to view this content.<br />
+          To view this page,please contact to "Admin Team". </h6><br /><br />
+
+        <p class="spacing">
+          <input type="button" value="Sign in" class="btn rounded-btn btn-space">
+          <input type="button" value="Register" class="btn rounded-btn" [routerLink]="['/signup']">
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
